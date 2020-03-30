@@ -1,0 +1,97 @@
+/* Base Css */
+.alignleft{
+    float: left;
+    margin-right: 15px;
+
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+
+}
+.aligncenter{
+    display: block;
+    margin:0 auto 15px;
+
+}
+a:focus{
+    outline: 0 solid;
+}
+img{
+    max-width:100%;
+    height: auto;
+}
+h1,h2,h3,h4,h5,h5{
+    margin:0 0 15px;
+    font-weight: 700;
+}
+html,body{
+    height: 100%;
+    color:#2c2b2b;
+    font-family: 'Roboto', sans-serif;
+
+}
+a:hover{
+    text-decoration:none;
+}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus{
+    -webkit-box-shadow:0 0 0px 1000px white inset !important;
+}
+.section-padding{
+    padding:80px 0;
+    text-align: center;
+}
+.single-service-icon{
+    margin:20px 0;
+}
+.service-title{
+    margin:50px 0;
+}
+.service-title h2{
+    position: relative;
+    font-size:30px;
+    padding-bottom:20px;
+    color:#222;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.service-title p{
+    font-size:18px;
+    color:#9b9b9b;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.service-title h2::before{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    margin-left: -30px;
+    width:60px;
+    height: 5px;
+    background-color: #FDDB77;
+    content: " ";
+}
+.service-title h2::after{
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    margin-left: -10px;
+    width:20px;
+    height: 5px;
+    background-color: #FF7976;
+    content: " ";
+}
+.service-icon-celltable img{
+    max-width:100%;
+    height: auto;
+}
+.single-service-icon h3{
+    font-size:24px;
+    font-weight: 500;
+    color:#222;
+}
+.single-service-icon p{
+    font-size:16px;
+    font-weight: 400;
+    color:#9b9b9b;
+}
